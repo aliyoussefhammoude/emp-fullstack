@@ -4,8 +4,7 @@
 Run your client and server with a single command. 
 
 
-# I have done a Youtube video on this applications usage.
-# This is to have something to show if there were an error starting up the app.
+# I have done a Youtube video on this applications usage. This is to have something to show if there were an error starting up the app.
 ``` bash
 # the youtube video: 
 
