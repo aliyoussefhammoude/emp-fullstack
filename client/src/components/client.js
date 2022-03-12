@@ -181,13 +181,16 @@ function Client() {
                 document.getElementById("add-btn").disabled = true;
                 document.querySelector('#div').style.display = "none";  
 
+            }else if(!allCEO[0] && employmentInput === "CEO") {
+              document.getElementById("add-btn").disabled = false;
+              document.querySelector('#div').style.display = "none";
+
             }else if(allCEO[0] && employmentInput === "Employee") {
                 removeAllChildNodes(managerOpt);
 
                 document.getElementById("add-btn").disabled = false;
                 document.querySelector('#div').style.display = "block";
                 getChefs(allManagers);
-                
 
             }else if(allCEO[0] && employmentInput === "Manager") {
               removeAllChildNodes(managerOpt);
@@ -196,7 +199,7 @@ function Client() {
               document.querySelector('#div').style.display = "block";
               getChefs(ceosAndManagers)
 
-          }else if(!allCEO[0] && (employmentInput === "Employee" || employmentInput === "Manager" || employmentInput === "CEO")) {
+            }else if(!allCEO[0] && (employmentInput === "Employee" || employmentInput === "Manager" || employmentInput === "CEO")) {
                 document.getElementById("add-btn").disabled = false;
                 document.querySelector('#div').style.display = "block";  
             }

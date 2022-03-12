@@ -1,10 +1,10 @@
-# Employee fullstack (frontend & backend) Application
+# Employee fullstack (frontend & backend) Application (works only with Chrome)
 
 > A full stack app with React, Node, Express and MySql. 
 Run your client and server with a single command. 
 
 
-# I have done a Youtube video on this applications usage. This is to have something to show if there were an error starting up the app.
+# I have done a Youtube video on this application's usage. This is to have something to show if there were an error starting up the app.
 ``` bash
 # the youtube video: 
 
@@ -23,17 +23,18 @@ Run your client and server with a single command.
 # now do these steps in your IDE -->
 
 
-# in terminal cd server and
-# Install dependencies for server
+# Install dependencies for server (you are already in the folder)
 npm install
 
-# in terminal cd .. and then cd client and
-# Install dependencies for client
+# now write in terminal: cd client
+# and install dependencies for client
 npm install
 
 # in terminal cd .. so that you are at /done-emp-fullstack and then
 # in terminal Run the client & server with concurrently
 npm run dev
+
+
 
 # Run the Express server only (if you like)
 npm run server

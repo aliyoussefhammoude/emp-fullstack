@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(236, 232, 232);
+}
+
 ul {
   padding:0;
   list-style:none;
@@ -21,4 +25,10 @@ li{
 
 .space {
   margin-left: 30px;
+}
+
+#root {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
 }
