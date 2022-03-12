@@ -14,9 +14,11 @@ Run your client and server with a single command.
 
 ``` bash
 
-# download and install XAMPP and start Apache and MySql
+# download and install XAMPP then start Apache and MySql
 # beside the MySql click on Admin, a new window with phpmyadmin will open
-# import the employe.sql in phpmyadmin
+# create a new database with the name "project" and then import this table -> 
+# employe.sql in phpmyadmin
+# add privelages with the connections provided in the file dbservice.js
 
 # now do these steps in your IDE -->
 
