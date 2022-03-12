@@ -6,7 +6,7 @@ Run your client and server with a single command.
 
 # I have done a Youtube video on this application's usage. This is to have something to show if there were an error starting up the app.
 ``` bash
-# the youtube video: 
+# the youtube video: https://www.youtube.com/watch?v=XDVLR7g1ZGc
 
 
 ``` 
