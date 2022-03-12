@@ -1,4 +1,4 @@
-# React Express Application
+# Employee fullstack (frontend & backend) Application
 
 > A full stack app with React, Node, Express and MySql. 
 Run your client and server with a single command. 
